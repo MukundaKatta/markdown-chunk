@@ -1,0 +1,15 @@
+[package]
+name = "markdown-chunk"
+version = "0.1.0"
+edition = "2021"
+rust-version = "1.74"
+description = "Split Markdown into RAG-friendly chunks that respect heading hierarchy. Keeps each chunk under a soft char cap; never splits inside a fenced code block. Zero deps."
+authors = ["Mukunda Rao Katta <mukunda.vjcs6@gmail.com>"]
+license = "MIT OR Apache-2.0"
+repository = "https://github.com/MukundaKatta/markdown-chunk"
+homepage = "https://github.com/MukundaKatta/markdown-chunk"
+documentation = "https://docs.rs/markdown-chunk"
+readme = "README.md"
+keywords = ["markdown", "chunk", "rag", "split", "heading"]
+categories = ["text-processing"]
+exclude = [".github/*", "target/*"]
